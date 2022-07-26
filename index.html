@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css"
+    />
+  </head>
+  <body>
+    <!--1-->
+    <div class="container">
+      <!--2-->
+      <header>Registro</header>
+      <!--3-->
+      <form action="#">
+        <!--4-->
+        <div class="form first">
+          <div class="details personal">
+            <!--5-->
+            <span class="title">Detalle Personal</span>
+
+            <div class="fields">
+              <!--6-->
+              <div class="input-field">
+                <label>Nombre Completo</label>
+                <input type="text" placeholder="Introducir nombre" required />
+              </div>
+
+              <div class="input-field">
+                <label>Fecha de Nacimiento</label>
+                <input type="date" placeholder="Fecha de cumpleaños" required />
+              </div>
+
+              <div class="input-field">
+                <label>E-mail</label>
+                <input type="text" placeholder="Introducir correo" required />
+              </div>
+
+              <div class="input-field">
+                <label>Numero celular</label>
+                <input type="number" placeholder="Introducir numero" required />
+              </div>
+
+              <div class="input-field">
+                <label>Genero</label>
+                <select required>
+                    
+                    <option>Hombre</option>
+                    <option>Mujer</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Ocupacion</label>
+                <input
+                  type="text"
+                  placeholder="Introducir ocupacion"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="details ID">
+            <!--5-->
+            <span class="title">Detalle de Identidad</span>
+
+            <div class="fields">
+              <!--6-->
+              <div class="input-field">
+                <label>Tipo</label>
+                <select required>
+                    <option>Ci</option>
+                    <option>Pasaporte</option>
+                    <option>Servicio militar</option>
+                    <option>Otro</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Numero</label>
+                <input
+                  type="number"
+                  placeholder="Numero de id"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Autorizacion emitida</label>
+                <input type="text" placeholder="introducir emision" required />
+              </div>
+
+              <div class="input-field">
+                <label>Estado del emitido</label>
+                <select required>
+                    <option>Actualizado</option>
+                    <option>Activo</option>
+                    <option>Vencido</option>
+                    <option>Otro</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Fecha emitida</label>
+                <input type="date" placeholder="Introducir fecha" required />
+              </div>
+
+              <div class="input-field">
+                <label>Fecha de expiracion</label>
+                <input type="date" placeholder="Introducir fecha" required />
+              </div>
+            </div>
+
+            <button class="nextBtn">
+              <span class="btnText">Siguiente</span>
+              <i class="uil uil-navigator"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="form second">
+          <div class="details address">
+            <!--5-->
+            <span class="title">Detalles de Direccion</span>
+
+            <div class="fields">
+              <!--6-->
+              <div class="input-field">
+                <label>Direccion</label>
+                <input
+                  type="text"
+                  placeholder="Introducir direccion"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Nacionalidad</label>
+                <input type="text" placeholder="Nacionalidad" required />
+              </div>
+
+              <div class="input-field">
+                <label>Departamento</label>
+                <select required>
+                    <option>Beni</option>
+                    <option>Cochabamba</option>
+                    <option>Chuquisaca</option>
+                    <option>La Paz</option>
+                    <option>Oruro</option>
+                    <option>Pando</option>
+                    <option>Potosi</option>
+                    <option>Santa Cruz</option>
+                    <option>Tarija</option>
+                    <option>Otro</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Provincia</label>
+                <input
+                  type="text"
+                  placeholder="Provincia"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Zona</label>
+                <input type="text" placeholder="zona" required />
+              </div>
+
+              <div class="input-field">
+                <label>Distrito</label>
+                <input type="number" placeholder="distrito" required />
+              </div>
+            </div>
+          </div>
+
+          <div class="details family">
+            <!--5-->
+            <span class="title">Detalle de Familia</span>
+
+            <div class="fields">
+              <!--6-->
+              <div class="input-field">
+                <label>Nombre de la madre</label>
+                <input type="text" placeholder="Introducir nombre" required />
+              </div>
+
+              <div class="input-field">
+                <label>Nombre del padre</label>
+                <input type="text" placeholder="Introducir nombre" required />
+              </div>
+
+              <div class="input-field">
+                <label>Nombre del abuelo</label>
+                <input type="text" placeholder="introducir nombre" required />
+              </div>
+
+              <div class="input-field">
+                <label>Nombre de la abuela</label>
+                <input type="text" placeholder="Introducir nombre" required />
+              </div>
+
+              <div class="input-field">
+                <label>Nombre del suegro</label>
+                <input type="text" placeholder="Introducir nombre" required />
+              </div>
+
+              <div class="input-field">
+                <label>Nombre de la suegra</label>
+                <input type="text" placeholder="Introducir nombre" required />
+              </div>
+            </div>
+
+            <div class="buttons">
+              <button class="backBtn">
+                <i class="uil uil-navigator"></i>
+                <span class="btnText">Volver</span>
+              </button>
+
+              <button class="submit">
+                <span class="submit">Submit</span>
+                <i class="uil uil-navigator"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
